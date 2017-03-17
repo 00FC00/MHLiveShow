@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+// 程序启动的主控制器
+#import "MHLiveShowController.h"
+#import "MHNavigationController.h"
+// 喵播主控制器
+#import "MBTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,10 +22,61 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    MHLog(@"hello world");
+    // 显示状态栏
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+    
+    // 创建window
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 设置颜色
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // 设置根控制器
+    MHLiveShowController *liveShow = [[MHLiveShowController alloc] init];
+    MHNavigationController *rootViewController = [[MHNavigationController alloc] initWithRootViewController:liveShow];
+    self.window.rootViewController = rootViewController;
+    
+    // 设置窗口可见
+    [self.window makeKeyAndVisible];
+    
+    // 添加通知中心
+    [self _addNotificationCenter];
+    
     return YES;
 
 }
+
+
+#pragma mark - 添加通知中心
+- (void)_addNotificationCenter
+{
+    // 收到通知
+    [MHNotificationCenter addObserver:self selector:@selector(_didTransmitData:) name:MHLiveShowViewDidTransmitDataNotification object:nil];
+}
+
+// 事件处理
+- (void)_didTransmitData:(NSNotification *)note
+{
+    MHLiveShowType type = [note.userInfo[MHLiveShowViewDidTransmitDatadKey] integerValue];
+    
+    switch (type) {
+        case MHLiveShowTypeMiaoBo:
+        {
+            // 喵播
+            MBTabBarController *rootViewController = [[MBTabBarController alloc] init];
+            self.window.rootViewController = rootViewController;
+        }
+            break;
+            
+        default:
+            break;
+    }
+}
+
+
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
