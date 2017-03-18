@@ -72,4 +72,6 @@ pod 'YYImage/WebP'
 #菊花activity
 pod 'MMMaterialDesignSpinner', '~> 0.2.3'
 
+#动画
+pod 'pop', '~> 1.0.9'
 end

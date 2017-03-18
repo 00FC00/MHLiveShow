@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3DE6F53EC303D7CEE67963FC /* Pods_MHLiveShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0690D693660DC83C544E6F44 /* Pods_MHLiveShow.framework */; };
+		6205DC4A1E7B8C32001509C5 /* MBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205DC431E7B8C32001509C5 /* MBNavigationController.m */; };
+		6205DC4B1E7B8C32001509C5 /* MBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205DC451E7B8C32001509C5 /* MBTabBarController.m */; };
+		6205DC4C1E7B8C32001509C5 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205DC471E7B8C32001509C5 /* MBViewController.m */; };
+		6205DC4F1E7B8C8D001509C5 /* MBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205DC4E1E7B8C8D001509C5 /* MBTabBar.m */; };
+		6205DC521E7BB5E0001509C5 /* MBTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205DC511E7BB5E0001509C5 /* MBTabBarButton.m */; };
 		620F6CC31E7AD01800DAB345 /* MHLiveShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CC01E7AD01800DAB345 /* MHLiveShowController.m */; };
 		620F6CC61E7AD29100DAB345 /* MHLiveShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CC51E7AD29100DAB345 /* MHLiveShowView.m */; };
 		620F6CC91E7AD2A500DAB345 /* MHLiveShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CC81E7AD2A500DAB345 /* MHLiveShow.m */; };
 		620F6CDF1E7AEBA100DAB345 /* MHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CD51E7AEBA100DAB345 /* MHNavigationController.m */; };
 		620F6CE01E7AEBA100DAB345 /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CD71E7AEBA100DAB345 /* MHViewController.m */; };
-		620F6CE11E7AEBA100DAB345 /* MBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CDA1E7AEBA100DAB345 /* MBNavigationController.m */; };
-		620F6CE21E7AEBA100DAB345 /* MBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CDC1E7AEBA100DAB345 /* MBTabBarController.m */; };
-		620F6CE31E7AEBA100DAB345 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CDE1E7AEBA100DAB345 /* MBViewController.m */; };
+		621710B51E7C3479002338F9 /* MBSquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621710B41E7C3479002338F9 /* MBSquareController.m */; };
+		621710B81E7C34A4002338F9 /* MBProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621710B71E7C34A4002338F9 /* MBProfileController.m */; };
 		6249047D1E7A62D80060BA17 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 624904291E7A62D80060BA17 /* NSDate+Extension.m */; };
 		6249047E1E7A62D80060BA17 /* NSDateFormatter+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6249042B1E7A62D80060BA17 /* NSDateFormatter+Extension.m */; };
 		6249047F1E7A62D80060BA17 /* NSObject+MHRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6249042F1E7A62D80060BA17 /* NSObject+MHRandom.m */; };
@@ -52,6 +56,16 @@
 
 /* Begin PBXFileReference section */
 		0690D693660DC83C544E6F44 /* Pods_MHLiveShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLiveShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6205DC421E7B8C32001509C5 /* MBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNavigationController.h; sourceTree = "<group>"; };
+		6205DC431E7B8C32001509C5 /* MBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNavigationController.m; sourceTree = "<group>"; };
+		6205DC441E7B8C32001509C5 /* MBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarController.h; sourceTree = "<group>"; };
+		6205DC451E7B8C32001509C5 /* MBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarController.m; sourceTree = "<group>"; };
+		6205DC461E7B8C32001509C5 /* MBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
+		6205DC471E7B8C32001509C5 /* MBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
+		6205DC4D1E7B8C8D001509C5 /* MBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBar.h; sourceTree = "<group>"; };
+		6205DC4E1E7B8C8D001509C5 /* MBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBar.m; sourceTree = "<group>"; };
+		6205DC501E7BB5E0001509C5 /* MBTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarButton.h; sourceTree = "<group>"; };
+		6205DC511E7BB5E0001509C5 /* MBTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarButton.m; sourceTree = "<group>"; };
 		620F6CBF1E7AD01800DAB345 /* MHLiveShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHLiveShowController.h; sourceTree = "<group>"; };
 		620F6CC01E7AD01800DAB345 /* MHLiveShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHLiveShowController.m; sourceTree = "<group>"; };
 		620F6CC41E7AD29100DAB345 /* MHLiveShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHLiveShowView.h; sourceTree = "<group>"; };
@@ -62,12 +76,10 @@
 		620F6CD51E7AEBA100DAB345 /* MHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHNavigationController.m; sourceTree = "<group>"; };
 		620F6CD61E7AEBA100DAB345 /* MHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHViewController.h; sourceTree = "<group>"; };
 		620F6CD71E7AEBA100DAB345 /* MHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
-		620F6CD91E7AEBA100DAB345 /* MBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNavigationController.h; sourceTree = "<group>"; };
-		620F6CDA1E7AEBA100DAB345 /* MBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNavigationController.m; sourceTree = "<group>"; };
-		620F6CDB1E7AEBA100DAB345 /* MBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarController.h; sourceTree = "<group>"; };
-		620F6CDC1E7AEBA100DAB345 /* MBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarController.m; sourceTree = "<group>"; };
-		620F6CDD1E7AEBA100DAB345 /* MBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
-		620F6CDE1E7AEBA100DAB345 /* MBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
+		621710B31E7C3479002338F9 /* MBSquareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSquareController.h; sourceTree = "<group>"; };
+		621710B41E7C3479002338F9 /* MBSquareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSquareController.m; sourceTree = "<group>"; };
+		621710B61E7C34A4002338F9 /* MBProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProfileController.h; sourceTree = "<group>"; };
+		621710B71E7C34A4002338F9 /* MBProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProfileController.m; sourceTree = "<group>"; };
 		624904281E7A62D80060BA17 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		624904291E7A62D80060BA17 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		6249042A1E7A62D80060BA17 /* NSDateFormatter+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Extension.h"; sourceTree = "<group>"; };
@@ -168,6 +180,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6205DC411E7B8C32001509C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6205DC441E7B8C32001509C5 /* MBTabBarController.h */,
+				6205DC451E7B8C32001509C5 /* MBTabBarController.m */,
+				6205DC421E7B8C32001509C5 /* MBNavigationController.h */,
+				6205DC431E7B8C32001509C5 /* MBNavigationController.m */,
+				6205DC461E7B8C32001509C5 /* MBViewController.h */,
+				6205DC471E7B8C32001509C5 /* MBViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6205DC481E7B8C32001509C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6205DC491E7B8C32001509C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6205DC4D1E7B8C8D001509C5 /* MBTabBar.h */,
+				6205DC4E1E7B8C8D001509C5 /* MBTabBar.m */,
+				6205DC501E7BB5E0001509C5 /* MBTabBarButton.h */,
+				6205DC511E7BB5E0001509C5 /* MBTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		620F6CBD1E7AD01800DAB345 /* LiveShow */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,14 +262,44 @@
 		620F6CD81E7AEBA100DAB345 /* MiaoBo */ = {
 			isa = PBXGroup;
 			children = (
-				620F6CD91E7AEBA100DAB345 /* MBNavigationController.h */,
-				620F6CDA1E7AEBA100DAB345 /* MBNavigationController.m */,
-				620F6CDB1E7AEBA100DAB345 /* MBTabBarController.h */,
-				620F6CDC1E7AEBA100DAB345 /* MBTabBarController.m */,
-				620F6CDD1E7AEBA100DAB345 /* MBViewController.h */,
-				620F6CDE1E7AEBA100DAB345 /* MBViewController.m */,
+				6205DC411E7B8C32001509C5 /* Controller */,
+				6205DC481E7B8C32001509C5 /* Model */,
+				6205DC491E7B8C32001509C5 /* View */,
 			);
 			path = MiaoBo;
+			sourceTree = "<group>";
+		};
+		621710AF1E7C3465002338F9 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				621710B31E7C3479002338F9 /* MBSquareController.h */,
+				621710B41E7C3479002338F9 /* MBSquareController.m */,
+				621710B01E7C3465002338F9 /* Controller */,
+				621710B11E7C3465002338F9 /* Model */,
+				621710B21E7C3465002338F9 /* View */,
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		621710B01E7C3465002338F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		621710B11E7C3465002338F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		621710B21E7C3465002338F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		624904251E7A62D80060BA17 /* Main */ = {
@@ -524,42 +597,11 @@
 		6249049C1E7A66450060BA17 /* MiaoBo */ = {
 			isa = PBXGroup;
 			children = (
-				6249049D1E7A66DE0060BA17 /* Home */,
+				621710AF1E7C3465002338F9 /* Square */,
 				624904A11E7A66DE0060BA17 /* Live */,
 				624904A51E7A66DE0060BA17 /* Profile */,
 			);
 			path = MiaoBo;
-			sourceTree = "<group>";
-		};
-		6249049D1E7A66DE0060BA17 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				6249049E1E7A66DE0060BA17 /* Controller */,
-				6249049F1E7A66DE0060BA17 /* Model */,
-				624904A01E7A66DE0060BA17 /* View */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		6249049E1E7A66DE0060BA17 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		6249049F1E7A66DE0060BA17 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		624904A01E7A66DE0060BA17 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		624904A11E7A66DE0060BA17 /* Live */ = {
@@ -596,6 +638,8 @@
 		624904A51E7A66DE0060BA17 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				621710B61E7C34A4002338F9 /* MBProfileController.h */,
+				621710B71E7C34A4002338F9 /* MBProfileController.m */,
 				624904A61E7A66DE0060BA17 /* Controller */,
 				624904A71E7A66DE0060BA17 /* Model */,
 				624904A81E7A66DE0060BA17 /* View */,
@@ -712,6 +756,7 @@
 		62F41E061E5F453200AB52D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MB;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CoderMikeHe;
 				TargetAttributes = {
@@ -808,6 +853,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6249047D1E7A62D80060BA17 /* NSDate+Extension.m in Sources */,
+				621710B51E7C3479002338F9 /* MBSquareController.m in Sources */,
 				6249048F1E7A62D80060BA17 /* MHConstant.m in Sources */,
 				6249047E1E7A62D80060BA17 /* NSDateFormatter+Extension.m in Sources */,
 				624904871E7A62D80060BA17 /* UIImage+MHOrientation.m in Sources */,
@@ -815,30 +861,33 @@
 				624904811E7A62D80060BA17 /* UIBarButtonItem+MHExtension.m in Sources */,
 				6249048B1E7A62D80060BA17 /* UIViewController+MHDismissKeyboard.m in Sources */,
 				624904991E7A62D80060BA17 /* MHTitleRightButton.m in Sources */,
+				6205DC4A1E7B8C32001509C5 /* MBNavigationController.m in Sources */,
 				624904981E7A62D80060BA17 /* MHTitleLeftButton.m in Sources */,
+				6205DC521E7BB5E0001509C5 /* MBTabBarButton.m in Sources */,
+				621710B81E7C34A4002338F9 /* MBProfileController.m in Sources */,
 				620F6CC91E7AD2A500DAB345 /* MHLiveShow.m in Sources */,
 				6249048D1E7A62D80060BA17 /* MBProgressHUD+MH.m in Sources */,
+				6205DC4F1E7B8C8D001509C5 /* MBTabBar.m in Sources */,
 				6249048A1E7A62D80060BA17 /* UIView+MHFrame.m in Sources */,
 				624904891E7A62D80060BA17 /* UIView+MHExtension.m in Sources */,
-				620F6CE21E7AEBA100DAB345 /* MBTabBarController.m in Sources */,
 				620F6CDF1E7AEBA100DAB345 /* MHNavigationController.m in Sources */,
 				620F6CC61E7AD29100DAB345 /* MHLiveShowView.m in Sources */,
 				624904931E7A62D80060BA17 /* MHWebImageTool.m in Sources */,
 				624904941E7A62D80060BA17 /* MHBackButton.m in Sources */,
 				624904861E7A62D80060BA17 /* UIImage+MHFile.m in Sources */,
-				620F6CE11E7AEBA100DAB345 /* MBNavigationController.m in Sources */,
 				624904841E7A62D80060BA17 /* UIImage+MHCrop.m in Sources */,
 				6249047F1E7A62D80060BA17 /* NSObject+MHRandom.m in Sources */,
 				624904881E7A62D80060BA17 /* UIImage+MHSnap.m in Sources */,
 				624904921E7A62D80060BA17 /* MHAppUtils.m in Sources */,
 				620F6CC31E7AD01800DAB345 /* MHLiveShowController.m in Sources */,
-				620F6CE31E7AEBA100DAB345 /* MBViewController.m in Sources */,
 				624904851E7A62D80060BA17 /* UIImage+MHExtension.m in Sources */,
 				62F41E161E5F453200AB52D6 /* AppDelegate.m in Sources */,
 				624904821E7A62D80060BA17 /* UIFont+MHExtension.m in Sources */,
 				624904801E7A62D80060BA17 /* NSString+MHSize.m in Sources */,
 				624904951E7A62D80060BA17 /* MHButton.m in Sources */,
+				6205DC4B1E7B8C32001509C5 /* MBTabBarController.m in Sources */,
 				624904961E7A62D80060BA17 /* MHDivider.m in Sources */,
+				6205DC4C1E7B8C32001509C5 /* MBViewController.m in Sources */,
 				62F41E131E5F453200AB52D6 /* main.m in Sources */,
 				6249048C1E7A62D80060BA17 /* UIViewController+MHHUD.m in Sources */,
 				624904831E7A62D80060BA17 /* UIImage+MHBlur.m in Sources */,
