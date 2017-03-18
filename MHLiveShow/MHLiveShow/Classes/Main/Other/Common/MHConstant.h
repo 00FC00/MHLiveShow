@@ -51,6 +51,39 @@
  *  全局细下滑线颜色 以及分割线颜色
  */
 #define MHGlobalBottomLineColor     [UIColor colorFromHexString:@"#d6d7dc"]
+/**
+ *  全局灰色色字体颜色 + placeHolder字体颜色
+ */
+#define MHGlobalGrayTextColor       [UIColor colorFromHexString:@"#999999"]
+
+/**
+ *  全局白色字体
+ */
+#define MHGlobalWhiteTextColor      [UIColor colorFromHexString:@"#ffffff"]
+
+/**
+ *  全局黑色字体
+ */
+#define MHGlobalBlackTextColor      [UIColor colorFromHexString:@"#323232"]
+/**
+ *  全局浅黑色字体
+ */
+#define MHGlobalShadowBlackTextColor      [UIColor colorFromHexString:@"#646464"]
+
+/**
+ *  全局灰色 背景
+ */
+#define MHGlobalGrayBackgroundColor [UIColor colorFromHexString:@"#f8f8f8"]
+
+// ======== 喵播 =======
+/**
+ *  全局亮红色
+ */
+#define MHGlobalLightRedColor MHColor(247.0f, 83.0f, 153.0f)
+
+
+
+// ======== 喵播 =======
 
 
 // 直播Demo类型

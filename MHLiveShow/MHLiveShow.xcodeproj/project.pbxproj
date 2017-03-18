@@ -20,6 +20,7 @@
 		620F6CE01E7AEBA100DAB345 /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F6CD71E7AEBA100DAB345 /* MHViewController.m */; };
 		621710B51E7C3479002338F9 /* MBSquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621710B41E7C3479002338F9 /* MBSquareController.m */; };
 		621710B81E7C34A4002338F9 /* MBProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621710B71E7C34A4002338F9 /* MBProfileController.m */; };
+		621710BB1E7D4E38002338F9 /* MBSquareTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 621710BA1E7D4E38002338F9 /* MBSquareTitleButton.m */; };
 		6249047D1E7A62D80060BA17 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 624904291E7A62D80060BA17 /* NSDate+Extension.m */; };
 		6249047E1E7A62D80060BA17 /* NSDateFormatter+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6249042B1E7A62D80060BA17 /* NSDateFormatter+Extension.m */; };
 		6249047F1E7A62D80060BA17 /* NSObject+MHRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6249042F1E7A62D80060BA17 /* NSObject+MHRandom.m */; };
@@ -80,6 +81,8 @@
 		621710B41E7C3479002338F9 /* MBSquareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSquareController.m; sourceTree = "<group>"; };
 		621710B61E7C34A4002338F9 /* MBProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProfileController.h; sourceTree = "<group>"; };
 		621710B71E7C34A4002338F9 /* MBProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProfileController.m; sourceTree = "<group>"; };
+		621710B91E7D4E38002338F9 /* MBSquareTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSquareTitleButton.h; sourceTree = "<group>"; };
+		621710BA1E7D4E38002338F9 /* MBSquareTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSquareTitleButton.m; sourceTree = "<group>"; };
 		624904281E7A62D80060BA17 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		624904291E7A62D80060BA17 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		6249042A1E7A62D80060BA17 /* NSDateFormatter+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Extension.h"; sourceTree = "<group>"; };
@@ -298,6 +301,8 @@
 		621710B21E7C3465002338F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				621710B91E7D4E38002338F9 /* MBSquareTitleButton.h */,
+				621710BA1E7D4E38002338F9 /* MBSquareTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -862,6 +867,7 @@
 				6249048B1E7A62D80060BA17 /* UIViewController+MHDismissKeyboard.m in Sources */,
 				624904991E7A62D80060BA17 /* MHTitleRightButton.m in Sources */,
 				6205DC4A1E7B8C32001509C5 /* MBNavigationController.m in Sources */,
+				621710BB1E7D4E38002338F9 /* MBSquareTitleButton.m in Sources */,
 				624904981E7A62D80060BA17 /* MHTitleLeftButton.m in Sources */,
 				6205DC521E7BB5E0001509C5 /* MBTabBarButton.m in Sources */,
 				621710B81E7C34A4002338F9 /* MBProfileController.m in Sources */,

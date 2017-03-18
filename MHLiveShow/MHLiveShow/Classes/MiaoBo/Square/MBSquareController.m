@@ -7,6 +7,15 @@
 //
 
 #import "MBSquareController.h"
+// M
+
+// V
+#import "MBSquareTitleButton.h"
+// C
+
+
+
+
 
 @interface MBSquareController ()
 
@@ -14,24 +23,70 @@
 
 @implementation MBSquareController
 
-- (void)viewDidLoad {
+- (void)dealloc
+{
+    MHDealloc;
+}
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 初始化
+    [self _setup];
+    
+    // 设置导航栏
+    [self _setupNavigationItem];
+    
+    // 设置子控件
+    [self _setupSubViews];
+    
+    // 监听通知中心
+    [self _addNotificationCenter];
+    
+}
+#pragma mark - 公共方法
+
+
+#pragma mark - 私有方法
+
+#pragma mark - 初始化
+- (void)_setup
+{
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - 设置导航栏
+- (void)_setupNavigationItem
+{
+    // 设置titleView
+    MBSquareTitleButton *titleButton = [[MBSquareTitleButton alloc] init];
+    [titleButton setTitle:@"广场" forState:UIControlStateNormal];
+    [titleButton setImage:MHImageNamed(@"mb_hot_down_13x8_") forState:UIControlStateNormal];
+    titleButton.mh_width = [@"广场" mh_sizeWithFont:titleButton.titleLabel.font].width+15.0f;
+    titleButton.mh_height = 35.0f;
+    [titleButton addTarget:self action:@selector(_titleButtonDidClicked:) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.titleView = titleButton;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - 设置子控件
+- (void)_setupSubViews
+{
+    
 }
-*/
 
+#pragma mark - 添加通知中心
+- (void)_addNotificationCenter
+{
+    
+}
+
+
+#pragma mark - 事件处理
+- (void)_titleButtonDidClicked:(MBSquareTitleButton *)sender
+{
+    sender.selected = !sender.isSelected;
+
+    
+}
 @end

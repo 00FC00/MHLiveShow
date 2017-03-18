@@ -126,9 +126,9 @@ self.automaticallyAdjustsScrollViewInsets = NO;\
 
 
 
-// Frame PX  ---> Pt 5s的宽度 全部向下取整数
-#define MHPxConvertPt(__Px) floor((__Px) * MHMainScreenWidth/320.0f)
-// Frame PX  ---> Pt 5s的宽度 返回一个合适的值 按钮手指触摸点 44
+// Frame PX  ---> Pt plus的宽度 全部向下取整数
+#define MHPxConvertPt(__Px) floor((__Px) * MHMainScreenWidth/414.0f)
+// Frame PX  ---> Pt plus的宽度 返回一个合适的值 按钮手指触摸点 44
 #define MHFxConvertFitPt(__px) (MAX(MHPxConvertPt(__Px),44))
 
 // 设置图片
