@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8A1C2F1E8551690024BFDA /* MBRankController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A1C2E1E8551690024BFDA /* MBRankController.m */; };
+		0A8A1C321E85518E0024BFDA /* MBSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A1C311E85518E0024BFDA /* MBSearchController.m */; };
+		0A8A1C351E856CEF0024BFDA /* MBSquareMoreTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A1C341E856CEF0024BFDA /* MBSquareMoreTagView.m */; };
+		0AAB93A21E84F643000C51D3 /* MBSquareTagCommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB93A11E84F643000C51D3 /* MBSquareTagCommonController.m */; };
 		3DE6F53EC303D7CEE67963FC /* Pods_MHLiveShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0690D693660DC83C544E6F44 /* Pods_MHLiveShow.framework */; };
 		6205DC4A1E7B8C32001509C5 /* MBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205DC431E7B8C32001509C5 /* MBNavigationController.m */; };
 		6205DC4B1E7B8C32001509C5 /* MBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205DC451E7B8C32001509C5 /* MBTabBarController.m */; };
@@ -57,6 +61,14 @@
 
 /* Begin PBXFileReference section */
 		0690D693660DC83C544E6F44 /* Pods_MHLiveShow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLiveShow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8A1C2D1E8551690024BFDA /* MBRankController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRankController.h; sourceTree = "<group>"; };
+		0A8A1C2E1E8551690024BFDA /* MBRankController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRankController.m; sourceTree = "<group>"; };
+		0A8A1C301E85518E0024BFDA /* MBSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSearchController.h; sourceTree = "<group>"; };
+		0A8A1C311E85518E0024BFDA /* MBSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSearchController.m; sourceTree = "<group>"; };
+		0A8A1C331E856CEF0024BFDA /* MBSquareMoreTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSquareMoreTagView.h; sourceTree = "<group>"; };
+		0A8A1C341E856CEF0024BFDA /* MBSquareMoreTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSquareMoreTagView.m; sourceTree = "<group>"; };
+		0AAB93A01E84F643000C51D3 /* MBSquareTagCommonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSquareTagCommonController.h; sourceTree = "<group>"; };
+		0AAB93A11E84F643000C51D3 /* MBSquareTagCommonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSquareTagCommonController.m; sourceTree = "<group>"; };
 		6205DC421E7B8C32001509C5 /* MBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNavigationController.h; sourceTree = "<group>"; };
 		6205DC431E7B8C32001509C5 /* MBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNavigationController.m; sourceTree = "<group>"; };
 		6205DC441E7B8C32001509C5 /* MBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarController.h; sourceTree = "<group>"; };
@@ -166,6 +178,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A8A1C2B1E85511B0024BFDA /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				0A8A1C2D1E8551690024BFDA /* MBRankController.h */,
+				0A8A1C2E1E8551690024BFDA /* MBRankController.m */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		0A8A1C2C1E85511B0024BFDA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0A8A1C301E85518E0024BFDA /* MBSearchController.h */,
+				0A8A1C311E85518E0024BFDA /* MBSearchController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0AAB939F1E84F5E9000C51D3 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				0AAB93A01E84F643000C51D3 /* MBSquareTagCommonController.h */,
+				0AAB93A11E84F643000C51D3 /* MBSquareTagCommonController.m */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
 		5651013D642DE53C5E4B34DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +326,9 @@
 		621710B01E7C3465002338F9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0A8A1C2B1E85511B0024BFDA /* Rank */,
+				0A8A1C2C1E85511B0024BFDA /* Search */,
+				0AAB939F1E84F5E9000C51D3 /* Tag */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -303,6 +345,8 @@
 			children = (
 				621710B91E7D4E38002338F9 /* MBSquareTitleButton.h */,
 				621710BA1E7D4E38002338F9 /* MBSquareTitleButton.m */,
+				0A8A1C331E856CEF0024BFDA /* MBSquareMoreTagView.h */,
+				0A8A1C341E856CEF0024BFDA /* MBSquareMoreTagView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -767,7 +811,6 @@
 				TargetAttributes = {
 					62F41E0D1E5F453200AB52D6 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = MVW6RM56HS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -847,7 +890,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -858,15 +901,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6249047D1E7A62D80060BA17 /* NSDate+Extension.m in Sources */,
+				0AAB93A21E84F643000C51D3 /* MBSquareTagCommonController.m in Sources */,
 				621710B51E7C3479002338F9 /* MBSquareController.m in Sources */,
 				6249048F1E7A62D80060BA17 /* MHConstant.m in Sources */,
 				6249047E1E7A62D80060BA17 /* NSDateFormatter+Extension.m in Sources */,
 				624904871E7A62D80060BA17 /* UIImage+MHOrientation.m in Sources */,
+				0A8A1C2F1E8551690024BFDA /* MBRankController.m in Sources */,
 				624904971E7A62D80060BA17 /* MHImageView.m in Sources */,
 				624904811E7A62D80060BA17 /* UIBarButtonItem+MHExtension.m in Sources */,
 				6249048B1E7A62D80060BA17 /* UIViewController+MHDismissKeyboard.m in Sources */,
 				624904991E7A62D80060BA17 /* MHTitleRightButton.m in Sources */,
 				6205DC4A1E7B8C32001509C5 /* MBNavigationController.m in Sources */,
+				0A8A1C351E856CEF0024BFDA /* MBSquareMoreTagView.m in Sources */,
 				621710BB1E7D4E38002338F9 /* MBSquareTitleButton.m in Sources */,
 				624904981E7A62D80060BA17 /* MHTitleLeftButton.m in Sources */,
 				6205DC521E7BB5E0001509C5 /* MBTabBarButton.m in Sources */,
@@ -895,6 +941,7 @@
 				624904961E7A62D80060BA17 /* MHDivider.m in Sources */,
 				6205DC4C1E7B8C32001509C5 /* MBViewController.m in Sources */,
 				62F41E131E5F453200AB52D6 /* main.m in Sources */,
+				0A8A1C321E85518E0024BFDA /* MBSearchController.m in Sources */,
 				6249048C1E7A62D80060BA17 /* UIViewController+MHHUD.m in Sources */,
 				624904831E7A62D80060BA17 /* UIImage+MHBlur.m in Sources */,
 				620F6CE01E7AEBA100DAB345 /* MHViewController.m in Sources */,
@@ -998,13 +1045,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = MVW6RM56HS;
+				DEVELOPMENT_TEAM = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = MHLiveShow/MHLiveShowPrefixHeader.pch;
 				INFOPLIST_FILE = MHLiveShow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderMikeHe.MHLiveShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -1014,13 +1064,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = MVW6RM56HS;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = MHLiveShow/MHLiveShowPrefixHeader.pch;
 				INFOPLIST_FILE = MHLiveShow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderMikeHe.MHLiveShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};

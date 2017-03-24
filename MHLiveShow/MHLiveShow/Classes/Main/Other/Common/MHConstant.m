@@ -16,3 +16,12 @@
 NSString * const MHLiveShowViewDidTransmitDataNotification = @"MHLiveShowViewDidTransmitDataNotification";
 /** liveShowView点击传递数据的Key */
 NSString * const MHLiveShowViewDidTransmitDatadKey = @"MHLiveShowViewDidTransmitDatadKey";
+
+// ======== 喵播 =======
+
+/** 喵播 -顶部标题的高度 */
+CGFloat const MHTitileContentViewH = 44;
+/** 喵播-顶部标题的Y */
+CGFloat const MHTitileContentViewY = 64;
+
+// ======== 喵播 =======

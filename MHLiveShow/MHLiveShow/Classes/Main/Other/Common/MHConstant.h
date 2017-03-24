@@ -76,12 +76,26 @@
 #define MHGlobalGrayBackgroundColor [UIColor colorFromHexString:@"#f8f8f8"]
 
 // ======== 喵播 =======
+
+typedef NS_ENUM(NSUInteger, MBSquareTag) {
+    MBSquareTagHot = 1,             // 热门
+    MBSquareTagShow,                // 才艺
+    MBSquareTagGoodVoice = 3 ,      // 好声音
+    MBSquareTagNew = 999,           // 最新 这个特殊
+    MBSquareTagNearby = 2,          // 附近
+    MBSquareTagOverseas = 8,        // 海外
+    MBSquareTagOfficial = 3 ,   // 官方
+};
+
 /**
  *  全局亮红色
  */
 #define MHGlobalLightRedColor MHColor(247.0f, 83.0f, 153.0f)
 
-
+/** 百思不得姐 -顶部标题的高度 */
+UIKIT_EXTERN  CGFloat const MHTitileContentViewH ;
+/** 百思不得姐-顶部标题的Y */
+UIKIT_EXTERN  CGFloat const MHTitileContentViewY ;
 
 // ======== 喵播 =======
 
